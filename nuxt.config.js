@@ -1,4 +1,4 @@
-import colors from 'vuetify/es5/util/colors';
+import colors from 'vuetify/es5/util/colors.js';
 
 export default {
 	mode: 'spa',
@@ -71,16 +71,5 @@ export default {
 				},
 			},
 		},
-	},
-
-	/*
-   ** Build configuration
-   */
-	build: {
-
-		/*
-     ** You can extend webpack config here
-     */
-		extend(_config, _ctx) {},
 	},
 };
